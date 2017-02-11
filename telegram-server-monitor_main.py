@@ -5,7 +5,7 @@ whitelist = []
 
 def read_whitelist():
     try:
-        file_handle = open('/etc/telegram-statusbot/whitelist.conf')
+        file_handle = open('/etc/telegram-server-monitor/whitelist.conf')
     except:
         return
     whitelist = file_handle.readlines()
